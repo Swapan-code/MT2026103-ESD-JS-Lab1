@@ -12,9 +12,9 @@ export class PlannerList {
     this.ids = [];
   }
 
-  add(id) {
+  add = (id) => {
     this.ids.push(id);
-  }
+  };
 
   describe() {
     return `${this.owner} has ${this.ids.length} course(s) planned`;
